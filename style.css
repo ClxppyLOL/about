@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-family: "Smooch Sans";
+    font-size: 27px;
+}
+
+div {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#username_header {
+    padding: 0px;
+    font-weight: 500;
+    font-size: 90px;
+    transition: 0.7s;
+    margin: 60px;
+}
+
+#username_header:hover {
+    color: red;
+    font-size: 90px;
+    letter-spacing: 10px;
+    font-size: 105px;
+}
+
+.nav_bar {
+    border-bottom: 1px white solid;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_items {
+    word-spacing: 60px;
+}
+
+.nav_item {
+    transition: 0.7s;
+}
+
+.nav_item:hover {
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+    transition: 0.7s;
+}
+
+h2:hover {
+    color: red;
+    letter-spacing: 4px;
+}
+
+p {
+    color: white;
+}
+
+.about_me {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.about_me:hover {
+    opacity: 100;
+}
