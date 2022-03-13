@@ -81,3 +81,11 @@ p {
 .about_me:hover {
     opacity: 100;
 }
+
+.hack {
+    transition: 1.2s;
+}
+
+.hack:hover {
+    transform: rotate(180deg);
+}
