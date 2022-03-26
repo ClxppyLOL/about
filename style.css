@@ -81,7 +81,11 @@ a:hover {
     letter-spacing: 1px;
 }
 
-@media all and (max-width: 800px) {
+.nav_items {
+    margin: 0px;
+}
+
+@media all and (max-width: 1300px) {
     body {
         font-size: 16px;
     }
