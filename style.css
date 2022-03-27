@@ -4,6 +4,7 @@ body {
     margin: 0px;
     font-family: "Smooch Sans";
     font-size: 27px;
+    cursor: url(Media_src/red.cur), default;
 }
 div {
     margin-left: 250px;
@@ -85,7 +86,7 @@ a:hover {
     margin: 0px;
 }
 
-@media all and (max-width: 1310px) {
+@media all and (max-width: 1300px) {
     body {
         font-size: 16px;
     }
